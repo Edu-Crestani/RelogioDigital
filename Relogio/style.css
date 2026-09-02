@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(15, 0, 0)
+}
+
+.visor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 50px;
+    font-family: fantasy;
+    color: rgb(227, 5, 220);
+
+}
