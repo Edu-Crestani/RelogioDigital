@@ -33,14 +33,19 @@ body {
     border: 2px solid rgba(62, 63, 127, 0.988);
     background-color: rgba(62, 63, 127, 0.988);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15), -2px -2px 5px rgba(255, 255, 255, 0.1);
-    color:rgb(227, 149, 5); 
+    color: rgb(227, 149, 5);
     font-size: 25px;
     font-weight: 900;
     cursor: pointer;
     padding: 5px 35px;
-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
+
 .botao button:active {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15), -2px -2px 5px rgba(255, 255, 255, 0.1);
     transform: scale(0.76);
+}
+
+.oculto {
+    display: none;
 }
