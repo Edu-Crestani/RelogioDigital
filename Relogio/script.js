@@ -7,7 +7,15 @@ function atualizaRelogio() {
     document.getElementById("horas").textContent = horasAtuais;
     document.getElementById("minutos").textContent = minutosAtuais;
     document.getElementById("segundos").textContent = segundosAtuais;
-    
+
+    const btAlternar = document.getElementById("btotao");
+    const btIniciar = document.getElementById("bt-iniciar");
+    const btPausar = document.getElementById("bt-pausar");
+    const btZerar = document.getElementById("bt-zerar");
+
+   
+
+
 }
 atualizaRelogio();
 setInterval(atualizaRelogio, 1000);

@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(6, 1, 11, 0.988);
+    background-color: rgba(62, 63, 127, 0.988);
 
 
 }
@@ -11,11 +11,11 @@ body {
     gap: 10px;
     font-size: 50px;
     font-family: fantasy;
-    color: rgb(227, 5, 220);
-    background-color: rgb(11, 1, 21);
+    color: rgb(227, 149, 5);
+    background-color: rgba(62, 63, 127, 0.988);
     padding: 20px;
-    border: 2px solid rgb(0, 0, 0);
-    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.8), -3px -3px 10px rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(62, 63, 127, 0.988);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15), -2px -2px 5px rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     width: 650px;
     margin: 100px auto;
@@ -26,17 +26,23 @@ body {
     justify-content: center;
     gap: 80px;
     height: 45px;
-    padding: 5px 35px;
 }
-
-
 
 .botao button {
     border-radius: 30px;
-    background-color: rgba(6, 1, 11, 0.988);
-    color: rgb(227, 5, 220);
+    border: 2px solid rgba(62, 63, 127, 0.988);
+    background-color: rgba(62, 63, 127, 0.988);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15), -2px -2px 5px rgba(255, 255, 255, 0.1);
+    color:rgb(227, 149, 5); 
     font-size: 25px;
+    font-weight: 900;
     cursor: pointer;
+    padding: 5px 35px;
+transition: all 0.2s ease;
+}
+.botao button:active {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15), -2px -2px 5px rgba(255, 255, 255, 0.1);
+    transform: scale(0.9);
 }
 
 /*.oculto{
