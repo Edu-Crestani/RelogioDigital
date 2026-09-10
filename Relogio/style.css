@@ -42,10 +42,5 @@ transition: all 0.2s ease;
 }
 .botao button:active {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15), -2px -2px 5px rgba(255, 255, 255, 0.1);
-    transform: scale(0.9);
+    transform: scale(0.76);
 }
-
-/*.oculto{
-    display: none;
-}
-*/
